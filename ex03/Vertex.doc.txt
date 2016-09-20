@@ -1,0 +1,9 @@
+========================================================================================================================
+Vertex
+
+The Vertex class handles 3d homogeneous vector points in the form (x axis, y axis, z axis (depth) and w ( disturbing))
+the class is called int the form `new Vertex(array('x',=> 3.5, 'y',=> 3.5, 'z' => 3.5, 'w' => 1.0, , 'color'=>$color))`
+where $color is an instance of the Color class.
+attributes x,y and z ar mandatory
+attributes w and color are optional and defaulted to 1 and (255,255,255) respectively
+========================================================================================================================

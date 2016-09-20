@@ -1,0 +1,23 @@
+========================================================================================================================
+The Color class deals with colors as integer rgb values.
+
+The parameter on initialisation of the class can be set as `new Color (array ('rgb' => 255))` or
+`new Color ('red' => 245, 'green' => 160, 'blue' =>147)`.
+
+Methods
+------------------------------------------------------------------------------------------------------------------------
+add:
+add(Color $toAdd)
+creates a new color instance and takes a Color instants as an argument. the return is the sum of each attribute of the
+calling instants and the passed instance correlated attribute.
+
+sub:
+sub(Color $toSub)
+creates a new color instance and takes a Color instant as an argument. the return is the subtraction of each
+the passed instance attributes from attribute of the calling instants correlated attributes.
+
+mult:
+mult(int $factor)
+creates a new color instance and takes a int factor as an argument. the return is the multiplication of each attributes
+of the calling instants and the passed factor.
+========================================================================================================================
